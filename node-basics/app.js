@@ -1,6 +1,7 @@
-function sum (a, b){
-    return a + b;
-}
+const {add, subtract} = require("./helpers/compute")
 
-const total = sum(7, 3);
+const total = add(7, 3);
 console.log(total);
+
+const result = subtract(7, 3);
+console.log(result);
